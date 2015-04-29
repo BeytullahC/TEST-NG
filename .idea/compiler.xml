@@ -23,11 +23,13 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="TEST-NG-BASIC" />
+        <module name="TestNg-EJB3" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="TEST-NG" target="1.5" />
       <module name="TEST-NG-BASIC" target="1.5" />
+      <module name="TestNg-EJB3" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
