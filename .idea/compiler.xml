@@ -38,12 +38,19 @@
         <processorPath useClasspath="true" />
         <module name="TestNg-EJB3" />
       </profile>
+      <profile default="false" name="Annotation profile for TestNg-Spring" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="TEST-NG" target="1.7" />
       <module name="TEST-NG-BASIC" target="1.7" />
       <module name="TestNg-EJB3" target="1.7" />
       <module name="TestNg-EJB3-ECLIPSELINK-JPA" target="1.7" />
+      <module name="TestNg-Spring" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

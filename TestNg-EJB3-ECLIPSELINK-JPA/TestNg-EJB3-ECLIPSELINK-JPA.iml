@@ -21,7 +21,7 @@
           <factory-entry name="HR_UNIT" value="fef8f45a-750d-4750-ac96-8189b7eaf4e4" />
           <factory-entry name="jdbc/__TimerPool" />
         </datasource-mapping>
-        <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/src/main/resources/META-INF/persistence.xml" />
+        <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/src/test/resources/META-INF/persistence.xml" />
       </configuration>
     </facet>
   </component>

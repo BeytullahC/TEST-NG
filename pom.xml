@@ -15,8 +15,10 @@
     </properties>
     <modules>
         <module>TEST-NG-BASIC</module>
+        <module>TestNg-Spring</module>
         <module>TestNg-EJB3</module>
         <module>TestNg-EJB3-ECLIPSELINK-JPA</module>
+
     </modules>
 
     <dependencies>
