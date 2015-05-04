@@ -5,13 +5,13 @@
              version="2.0">
     <persistence-unit name="HR_UNIT" transaction-type="JTA">
         <jta-data-source>jdbc/__default</jta-data-source>
-        <class>testng.entities.Countries</class>
-        <class>testng.entities.Departments</class>
-        <class>testng.entities.Employees</class>
-        <class>testng.entities.JobHistory</class>
-        <class>testng.entities.Jobs</class>
-        <class>testng.entities.Locations</class>
-        <class>testng.entities.Regions</class>
+        <class>testng.Countries</class>
+        <class>testng.Departments</class>
+        <class>testng.Employees</class>
+        <class>testng.JobHistory</class>
+        <class>testng.Jobs</class>
+        <class>testng.Locations</class>
+        <class>testng.Regions</class>
         <properties>
             <property name="eclipselink.target-database" value="DERBY"/>
             <property name="eclipselink.ddl-generation" value="drop-and-create-tables"/>

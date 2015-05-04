@@ -18,6 +18,7 @@
         <module>TestNg-Spring</module>
         <module>TestNg-EJB3</module>
         <module>TestNg-EJB3-ECLIPSELINK-JPA</module>
+        <module>TestNg-Spring-Hibernate</module>
 
     </modules>
 

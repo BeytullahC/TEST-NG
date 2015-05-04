@@ -44,6 +44,13 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
       </profile>
+      <profile default="false" name="Annotation profile for TestNg-Spring-Hibernate" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="TestNg-Spring-Hibernate" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="TEST-NG" target="1.7" />
@@ -51,6 +58,7 @@
       <module name="TestNg-EJB3" target="1.7" />
       <module name="TestNg-EJB3-ECLIPSELINK-JPA" target="1.7" />
       <module name="TestNg-Spring" target="1.7" />
+      <module name="TestNg-Spring-Hibernate" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
