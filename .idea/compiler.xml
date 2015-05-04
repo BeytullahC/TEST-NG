@@ -23,13 +23,27 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="TEST-NG-BASIC" />
+      </profile>
+      <profile default="false" name="Annotation profile for TestNg-EJB3-ECLIPSELINK-JPA" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="TestNg-EJB3-ECLIPSELINK-JPA" />
+      </profile>
+      <profile default="false" name="Annotation profile for TestNg-EJB3" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
         <module name="TestNg-EJB3" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="TEST-NG" target="1.5" />
-      <module name="TEST-NG-BASIC" target="1.5" />
-      <module name="TestNg-EJB3" target="1.5" />
+      <module name="TEST-NG" target="1.7" />
+      <module name="TEST-NG-BASIC" target="1.7" />
+      <module name="TestNg-EJB3" target="1.7" />
+      <module name="TestNg-EJB3-ECLIPSELINK-JPA" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
