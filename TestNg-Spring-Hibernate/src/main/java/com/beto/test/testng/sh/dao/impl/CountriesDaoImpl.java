@@ -1,14 +1,11 @@
 package com.beto.test.testng.sh.dao.impl;
 
-import com.beto.test.testng.sh.dao.CountriesDao;
-import com.beto.test.testng.sh.entities.Countries;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
-import org.springframework.transaction.annotation.Transactional;
 
-import javax.persistence.Query;
-import javax.persistence.TypedQuery;
+import com.beto.test.testng.sh.dao.CountriesDao;
+import com.beto.test.testng.sh.entities.Countries;
 
 /**
  * Created by 912867 on 04.05.2015.

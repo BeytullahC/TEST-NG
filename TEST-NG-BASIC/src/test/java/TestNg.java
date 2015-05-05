@@ -2,14 +2,16 @@
  * Created by 912867 on 29.04.2015.
  */
 
-import org.testng.annotations.*;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
-import static org.testng.Assert.assertEquals;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
 
 public class TestNg {
 

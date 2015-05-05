@@ -1,5 +1,7 @@
 package testng.entities;
 
+import java.io.Serializable;
+
 import javax.persistence.Basic;
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -8,9 +10,12 @@ import javax.persistence.Id;
 /**
  * Created by 912867 on 30.04.2015.
  */
+@SuppressWarnings("serial")	
 @Entity
-public class Countries {
-    private String countryId;
+public class Countries implements Serializable{
+    
+	
+	private String countryId;
     private String countryName;
 
     @Id

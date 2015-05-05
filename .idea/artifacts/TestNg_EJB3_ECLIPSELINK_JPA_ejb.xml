@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="ejb-jar" name="TestNg-EJB3-ECLIPSELINK-JPA:ejb">
+    <output-path>$PROJECT_DIR$/TestNg-EJB3-ECLIPSELINK-JPA/target</output-path>
+    <root id="archive" name="TestNg-EJB3-ECLIPSELINK-JPA-1.0-SNAPSHOT.jar">
+      <element id="artifact" artifact-name="TestNg-EJB3-ECLIPSELINK-JPA:ejb exploded" />
+    </root>
+  </artifact>
+</component>

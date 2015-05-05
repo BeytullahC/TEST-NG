@@ -1,8 +1,8 @@
 package com.beto.test.testng.spring.impl;
 
-import com.beto.test.testng.spring.SpringBean;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
+
+import com.beto.test.testng.spring.SpringBean;
 
 /**
  * Created by 912867 on 04.05.2015.

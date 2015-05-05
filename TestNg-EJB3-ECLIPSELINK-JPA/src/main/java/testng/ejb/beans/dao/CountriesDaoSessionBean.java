@@ -15,7 +15,12 @@ import java.io.Serializable;
 @Stateless(name = "countriesDaoSessionEJB")
 public class CountriesDaoSessionBean implements Serializable {
 
-    @PersistenceContext(unitName = "HR_UNIT")
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	
+	@PersistenceContext(unitName = "HR_UNIT")
     private EntityManager em;
 
     public Countries test(String countryId) {
